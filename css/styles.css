@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: darkgrey;
+}
+
+main {
+  margin: auto;
+  background-color: lightgray;
+  width: 90%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 28%;
+  height: 450px;
+  border: solid 2px darkgray;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px darkgray;
+  padding: 5px;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.emoji {
+  font-size: 3rem;
+}
